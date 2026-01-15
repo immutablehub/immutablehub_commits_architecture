@@ -35,6 +35,19 @@ Push your local repository to the immutablehub network
 ```bash
   ihub op push <reponame>
 ```
+Push your local mcp server repository to the immutablehub network
+
+## Bash
+```bash
+  ihub op push <mcpreponame> --mcp true
+```
+Push your local prompt  to the immutablehub network
+
+## Bash
+```bash
+  ihub op push <projectname> --prompt  true
+```
+
 
 ## Commits 
 > immutablehub  utilizes git bundle system to ensure that your version history is preserved exactly as it exists locally.
